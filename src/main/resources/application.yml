@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: study_kotlin
+
+server:
+  port: 19999
+logging:
+  level:
+    root: info
