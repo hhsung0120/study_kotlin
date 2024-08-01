@@ -1,4 +1,4 @@
-package com.example.study_kotlin.test
+package com.example.study_kotlin.demo
 
 
 class MainTest {

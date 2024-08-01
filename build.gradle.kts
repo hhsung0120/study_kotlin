@@ -26,6 +26,7 @@ repositories {
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter")
+    implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     compileOnly("org.projectlombok:lombok")
     runtimeOnly("com.mysql:mysql-connector-j")
@@ -33,8 +34,7 @@ dependencies {
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
-
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk17")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 }
 
 kotlin {
